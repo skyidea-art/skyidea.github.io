@@ -68,11 +68,25 @@
        }
 .view_manga{
     margin-top: 0px;
-    margin-left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
     display:inline-grid;
     padding: 10px;
-    font-size: 36px;
     width: 120px;
     height: 200px;
     border: solid black 1px;
+}
+.preview_manga{
+width:100px;
+height:180px;
+margin: auto;
+}
+@font-face{
+src:url(font/Ubuntu-Bold.ttf);
+
+}
+.preview_text{
+ font-size: 20px;
+text-align: center;
 }
