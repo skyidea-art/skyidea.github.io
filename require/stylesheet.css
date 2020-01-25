@@ -1,5 +1,5 @@
  body{
-            font-family:Arial, Helvetica, sans-serif;
+             font-family: "ubuntu";
             overflow-x:hidden;
         }
         #content{
@@ -16,10 +16,11 @@
         }
         .nav .close{
             position:absolute;
-            top: 8px;
+            top: 22px;
             right: 22px;
             margin-Left: 50px;
             font-size: 30px;;
+             font-family: "ubuntu";
             color: rgb(0, 0, 0);
         }
         .nav{
@@ -39,6 +40,7 @@
             flex-direction:row;
             padding:18px 30px;
             font-size: 30px;
+             font-family: "ubuntu";
             text-decoration: none;
             color: rgb(0, 0, 0);
             background-color: #ffffff;
@@ -62,12 +64,15 @@
        #l1{
         margin:auto;
         font-size:20px;
+            font-family: "ubuntu";
         width: 1000px;
         height: 1000px;
         padding: 10px;
-        border-bottom-left-radius: :50px;
-        border-top-right-radius: 50px;
-           background-color:darkgrey;
+     
+           background-color:#d9d9d9;
+           background-image: url(background_img.png);
+           background-repeat: no-repeat;
+           
        }
 .view_manga{
     margin-top: 0px;
@@ -78,24 +83,26 @@
     padding: 10px;
     width: 120px;
     height: 200px;
-    border: solid black 1px;
-    background-color: white;
+    border-radius: 10px;
+    background-color: #f2f2f2;
 }
 .preview_manga{
 width:100px;
 height:180px;
 margin: auto;
 }
-@font-face{
-src:url(font/Ubuntu-Bold.ttf);
+@font_face{
+    font-family: "ubuntu";
 
 }
 .preview_text{
+     font-family: "ubuntu";
+    color:white;
  font-size: 20px;
 text-align: center;
-    background-color:aqua;
+    padding: 4px;
+    background-color:darkgray;
     width:auto;
     height:auto;
-    border: solid black 2px;
     border-radius: 10px;
 }
