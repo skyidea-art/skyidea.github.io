@@ -65,7 +65,9 @@
         width: 1000px;
         height: 1000px;
         padding: 10px;
-        border: solid black 1px;
+        border-bottom-left-radius: :50px;
+        border-top-right-radius: 50px;
+           background-color:darkgrey;
        }
 .view_manga{
     margin-top: 0px;
@@ -77,6 +79,7 @@
     width: 120px;
     height: 200px;
     border: solid black 1px;
+    background-color: white;
 }
 .preview_manga{
 width:100px;
@@ -90,4 +93,9 @@ src:url(font/Ubuntu-Bold.ttf);
 .preview_text{
  font-size: 20px;
 text-align: center;
+    background-color:aqua;
+    width:auto;
+    height:auto;
+    border: solid black 2px;
+    border-radius: 10px;
 }
