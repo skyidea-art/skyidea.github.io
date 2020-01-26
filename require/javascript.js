@@ -1,10 +1,21 @@
-        function active()
+
+let v1;
+let v2;
+      function active()
         {
-            document.getElementById('menu').style.width = '250px';
-            document.getElementById('content').style.marginLeft = '250px';
+            v1 = 250;
+            v2 = 250;
+            document.getElementById('menu').style.width =  v1 + 'px';
+            document.getElementById('content').style.marginLeft = v2 + 'px';
         }
         function deactivate()
         {
-            document.getElementById('menu').style.width = '0px';
-            document.getElementById('content').style.marginLeft = '0px';
+            if( v1 === 250 && v2 === 250){
+                --v1;
+                --v2;
+                if(v1 === 0 && v2 === 0){
+                    document.getElementById('menu').style.width = v1 +"px";
+                    document.getElementById('content').style.marginLeft = v2 +"px";
+                }
+            }
         }
