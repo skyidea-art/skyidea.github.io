@@ -74,8 +74,34 @@ body{
         min-width: 200px;
         height: 1000px;
         padding: 10px;
-     
-        background-image: url('../../skyidea.github.io/require/background_img.jpg');
+        border-top-right-radius: 50px;
+        background-image: url('../../skyidea.github.io/require/background_img2.jpg');
+         background-size: 200px 200px; 
+       }
+       #l2{
+        margin:auto;
+        font-size:20px;
+            font-family: ubuntu;
+        width: auto;
+        max-width: 800px;
+        min-width: 200px;
+        height: 1000px;
+        padding: 10px;
+        border-top-right-radius: 50px;
+        background-image: url('../../skyidea.github.io/require/backgorund_img1.jpg');
+         background-size: 200px 200px; 
+       }
+       #l3{
+        margin:auto;
+        font-size:20px;
+            font-family: ubuntu;
+        width: auto;
+        max-width: 800px;
+        min-width: 200px;
+        height: 1000px;
+        padding: 10px;
+        border-top-right-radius: 50px;
+        background-image: url('../../skyidea.github.io/require/background_img0.jpg');
          background-size: 200px 200px; 
        }
 .view_manga{
